@@ -1,0 +1,8 @@
+
+.menuMorado{
+    height:0px;
+    background-color:#3A3053; 
+    color:#ffffff;
+    border-radius: 10px;
+    transition: 3.0s ease-in-out;
+}
