@@ -1,19 +1,23 @@
 
 /* font-family: 'Poppins', sans-serif; */
+:root{
+    --light-gray: hsl(0, 0%, 75%);
+}
+
 body{
     font-family: 'Poppins';
     font-weight: 700;
 }
 
-.menuLogo{
+.menu-logo{
     display: flex;
     justify-content: space-between;
 }
-.transparentButton{
+.transparent-button{
     background-color: transparent;
     border: 0px;
 }
-.menuMorado{
+.menu-morado{
     margin-top: 10px;
     height:0px;
     background-color:#3A3053; 
@@ -29,7 +33,7 @@ ul{
 li{
     margin:20px;
 }
-.customButton{
+.custom-button{
     color: white !important;
     background-color: hsl(180, 66%, 49%);
     border: none;
@@ -41,4 +45,52 @@ li{
     font-weight: 700;
     font-size: 16px;
     display: none;
+}
+
+.working-img{
+    width: auto;
+    height: 355px;
+}
+
+h2{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #36333E;
+    line-height: 60px;
+}
+
+.msg{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    color: var(--light-gray);
+}
+
+.gs-btn{
+    color: white !important;
+    background-color: hsl(180, 66%, 49%);
+    border: none;
+    border-radius: 25px;
+    width: 50%;
+    height: 50px;
+    padding: 0px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.gs-btn-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.shrtn-link-sec{
+    background-image: url(../img/bg-shorten-mobile.svg)
+    background-color: #3A3053;
+    width: ;
+    height: ;
 }
